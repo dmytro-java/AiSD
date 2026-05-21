@@ -1,10 +1,10 @@
-from bubble import bubble_sort
+import bubble_sort
 
 tablica = [1, 3, 2, 6, 7, 0]
 
 szukana = int(input("podaj liczbe, a ja poszukam \n"))
 
-tablica, ileRazy = bubble_sort(tablica)
+tablica, ileRazy = bubble_sort.bubble_sort(tablica)
 print(f"Posortowana tablica:  {tablica}")
 left = 0
 right = len(tablica) - 1
